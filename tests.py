@@ -77,6 +77,5 @@ message += "SUCCESS" if success else "FAILURE"
 print(message)
 
 
-
 print("\n\nTest failures: {} ".format(failures))
 exit(failures)
